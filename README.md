@@ -50,21 +50,9 @@ are recorded and plotted to study how each metric responds to the changing commu
 isual Outputs
 
 The notebook automatically generates:
-
-Graph visualizations after each recursive split
+    1. Graph visualizations after each recursive split
 (with stable spring layout for fair comparison)
-
-Metric evolution plots showing how each node's centrality changes
-
-Iteration state logs stored in assets/iteration_state.json
-
-karate-modularity/
-├── DSC212_Karate_Modularity.ipynb     # Main notebook
-├── README.md                          # This file
-├── assets/
-│   ├── layout_positions.npy           # Fixed node layout
-│   ├── iteration_state.json           # Stored results per iteration
-│   └── plots/                         # Auto-generated figures
-└── LICENSE
+    2.Metric evolution plots showing how each node's centrality changes
+    3.Iteration state logs stored in assets/iteration_state.json
 
 
