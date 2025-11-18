@@ -17,4 +17,4 @@ How to run:
 2. Create a Python environment with `numpy`, `scipy`, `networkx`, `matplotlib`.
 3. Open DSC212_Karate_Modularity.ipynb in Jupyter and run all cells.
 
-Author: Thaya Lakshminarayanan G, Roll No: IMS24252
+
