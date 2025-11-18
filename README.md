@@ -11,76 +11,41 @@ Project Overview
 
 Community detection plays a central role in understanding real-world networks — from social graphs to biological systems.
 In this project, I implement:
-
-The modularity matrix
-
-Leading eigenvector-based community splitting
-
-Recursive bisection until eigenvalues ≤ 0
-
-Visualizations after each split (consistent layout)
+  1. The modularity matrix
+  2. Leading eigenvector-based community splitting
+  3. Recursive bisection until eigenvalues ≤ 0
+  4.Visualizations after each split (consistent layout)
 
 Evolution of:
-
-Degree centrality
-
-Betweenness centrality
-
-Closeness centrality
-
-Clustering coefficient
+    1. Degree centrality
+    2. Betweenness centrality
+    3. Closeness centrality
+    4. Clustering coefficient
 
 All results are produced using a single Jupyter notebook that runs top-to-bottom without manual edits.
 Key Concepts Implemented
-✔ 1. Modularity Matrix (B)
-𝐵
-=
-𝐴
-−
-𝑘
-𝑘
-𝑇
-2
-𝑚
-B=A−
-2m
-kk
-T
-	​
-
+ 1. Modularity Matrix (B)
+                          B=A−2mkkT​
 
 Where:
-
 A = adjacency matrix
-
 k = degree vector
-
 m = number of edges
 
-✔ 2. Spectral Bisection
-
+ 2. Spectral Bisection
 Compute the leading eigenvalue λ₁ and eigenvector u₁ of B(C)
-
 If λ₁ > 0 → split the community by sign(u₁)
-
 If λ₁ ≤ 0 → stop splitting
 
-✔ 3. Recursive Community Detection
-
+3. Recursive Community Detection
 The algorithm repeatedly splits communities until no subset can produce a positive eigenvalue.
 
-✔ 4. Centrality Metric Evolution
-
+4. Centrality Metric Evolution
 After each iteration, for every node:
-
-Degree centrality
-
-Betweenness centrality
-
-Closeness centrality
-
-Clustering coefficient
-
+    1. Degree centrality
+    2. Betweenness centrality
+    3. Closeness centrality
+    4. Clustering coefficient
 are recorded and plotted to study how each metric responds to the changing community structure.
 isual Outputs
 
