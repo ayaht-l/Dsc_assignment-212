@@ -1,4 +1,5 @@
 # Dsc_assignment-212
+Author: Thaya Lakshminarayanan G, Roll No: IMS24252
 # Modularity on the Karate Club Graph
 Course: DSC212 - Graph Theory
 
